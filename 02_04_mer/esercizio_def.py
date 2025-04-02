@@ -18,15 +18,15 @@ def somma_lista(lista):
     print(somma)
 
         
-        
-while True:   
+     
+while True:   #mi rende il cilo infinito   
     
     quadrato()
     
     scelta=input("Vuoi continuare?")
     if scelta== "no":
-        break
-    
+        break# mi fa uscire dal ciclo
+    #creo una lista dinamica i cui valori li chiedo al cliente 
 while True:   
     lista=[]
     while True:
@@ -36,6 +36,12 @@ while True:
              break
     somma_lista(lista)
     
+    # booleano semplice che mi da la possibilità di uscire  il programma 
     scelta=input("Vuoi continuare?")
     if scelta== "no":
         break  
+    
+#  controllori di flusso
+
+contr_flusso= input(" siamo a metà della nostro peercorso dei fondamenti di python sai cosa sono i controllori dei flussi? (si/no)")
+
